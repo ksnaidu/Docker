@@ -1,0 +1,25 @@
+docker images- display the docker images
+docker pull image name-- To pull the docker images in docker hub.
+docker create image-id -- create the container using docker image -id.
+
+docker ps- To display the Running containers.
+docker ps -a -- To display all the containers.
+
+docker start cid:  To start the container.
+docker stop Cid: To stop the container.
+
+docker run  [image-name]:[version] : TO pull create and start the container in single command.
+
+docker rmi imageid - remove images.
+docker rm cid: remove the containers.
+
+docker run -d -p [host-port]:[container-port] [image name]:[version]--- To assign the port number.
+
+docker run -d --name [name you wish] [imagename]:[version]--- To change the container name.
+
+docker exec -it [container-id] bash
+
+
+
+
+
